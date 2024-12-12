@@ -15,6 +15,11 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello World!";
+		return """
+                <h1>Hello CQUni!</h1>
+                <p>Student ID: 12345678</p>
+                <p>Full Name: John Doe</p>
+                <p>Campus: Sydney Campus</p>
+                """;
 	}
 }
